@@ -1,0 +1,43 @@
+{
+    // --- Language Specific ---
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.formatOnSave": true
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features",
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.formatOnSave": true
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.formatOnSave": true
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+
+    // --- Files ---
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+    },
+    "files.readonlyInclude": {
+        "**/node_modules/**/*.*": true,
+    },
+
+    // --- Search ---
+    "search.exclude": {
+        "**/node_modules": true,
+    },
+
+    // --- TypeScript ---
+    "typescript.preferences.quoteStyle": "single",
+
+    // --- JavaScript ---
+    "javascript.preferences.quoteStyle": "single"
+}

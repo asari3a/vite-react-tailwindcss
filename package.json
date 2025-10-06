@@ -10,6 +10,7 @@
   "devDependencies": {
     "@tailwindcss/vite": "4.1.13",
     "@vitejs/plugin-react": "5.0.3",
+    "prettier": "3.6.2",
     "tailwindcss": "4.1.13",
     "vite": "7.1.6"
   }
